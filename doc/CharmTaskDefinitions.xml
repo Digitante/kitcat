@@ -1,0 +1,33 @@
+<!DOCTYPE charmreport>
+<charmreport type="taskdefinitions">
+    <metadata>
+        <username></username>
+        <creation-time>2017-07-29T01:57:27Z</creation-time>
+    </metadata>
+    <report>
+        <tasks>
+            <task taskid="9999" subscribed="0" trackable="1" parentid="0">Lunatics</task>
+            <task taskid="10000" subscribed="0" trackable="1" parentid="9999">Software Development</task>
+            <task taskid="11000" subscribed="0" trackable="1" parentid="10000">KitCAT</task>
+            <task taskid="11010" subscribed="0" trackable="1" parentid="11000">Meetings/Overhead</task>
+            <task taskid="11011" subscribed="0" trackable="1" parentid="11010">Development Environment Setup</task>
+            <task taskid="11020" subscribed="0" trackable="1" parentid="11000">Core Library</task>
+            <task taskid="11030" subscribed="0" trackable="1" parentid="11000">Standalone GUI</task>
+            <task taskid="11100" subscribed="0" trackable="1" parentid="11000">Application Integration</task>
+            <task taskid="11101" subscribed="0" trackable="1" parentid="11100">Blender Integration</task>
+            <task taskid="11102" subscribed="0" trackable="1" parentid="11100">Ardour Integration</task>
+            <task taskid="11103" subscribed="0" trackable="1" parentid="11100">GIMP Integration</task>
+            <task taskid="11104" subscribed="0" trackable="1" parentid="11100">Inkscape Integration</task>
+            <task taskid="11105" subscribed="0" trackable="1" parentid="11100">Krita Integration</task>
+            <task taskid="11106" subscribed="0" trackable="1" parentid="11100">Papagayo-NG Integration</task>
+            <task taskid="11107" subscribed="0" trackable="1" parentid="11100">Trelby Integration</task>
+            <task taskid="11108" subscribed="0" trackable="1" parentid="11100">Audacity Integration</task>
+            <task taskid="11109" subscribed="0" trackable="1" parentid="11100">KDEnlive Integration</task>
+            <task taskid="11110" subscribed="0" trackable="1" parentid="11100">RenderChan Integration</task>
+            <task taskid="12000" subscribed="0" trackable="1" parentid="10000">TACTIC</task>
+            <task taskid="12010" subscribed="0" trackable="1" parentid="12000">Meetings/Overhead</task>
+            <task taskid="20000" subscribed="0" trackable="1" parentid="9999">IT/Admin</task>
+            <task taskid="30000" subscribed="0" trackable="1" parentid="9999">Design/Artwork</task>
+        </tasks>
+    </report>
+</charmreport>
