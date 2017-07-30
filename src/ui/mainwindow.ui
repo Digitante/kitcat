@@ -6,20 +6,581 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>525</width>
-    <height>404</height>
+    <width>866</width>
+    <height>689</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>KitCAT</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="ResourceTab">
+       <attribute name="title">
+        <string>Resource</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>822</width>
+             <height>575</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="maximumSize">
+                 <size>
+                  <width>400</width>
+                  <height>400</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="pixmap">
+                 <pixmap resource="../../resources/mainwindow.qrc">:/georgiana_lerner_flightsuit.jpg</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox">
+                <property name="title">
+                 <string>Resource Tools</string>
+                </property>
+                <layout class="QFormLayout" name="formLayout">
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_2">
+                   <property name="text">
+                    <string>Original .blend file</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <layout class="QHBoxLayout" name="horizontalLayout">
+                   <item>
+                    <widget class="QPushButton" name="pushButton">
+                     <property name="text">
+                      <string>Download</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_2">
+                     <property name="text">
+                      <string>Upload</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_3">
+                     <property name="text">
+                      <string>Sync</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLabel" name="label_3">
+                   <property name="text">
+                    <string>Preview</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <layout class="QHBoxLayout" name="horizontalLayout_2">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_4">
+                     <property name="text">
+                      <string>View</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_5">
+                     <property name="text">
+                      <string>Set</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_6">
+                     <property name="text">
+                      <string>Sync</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item row="4" column="1">
+                  <widget class="QLabel" name="label_18">
+                   <property name="text">
+                    <string>25 September 2015</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="4" column="0">
+                  <widget class="QLabel" name="label_11">
+                   <property name="text">
+                    <string>Date</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="7" column="1">
+                  <widget class="QLabel" name="label_16">
+                   <property name="text">
+                    <string>CC By-SA 3.0</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="7" column="0">
+                  <widget class="QLabel" name="label_8">
+                   <property name="text">
+                    <string>License</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="10" column="1">
+                  <widget class="QLabel" name="label_19">
+                   <property name="text">
+                    <string>2.71</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="10" column="0">
+                  <widget class="QLabel" name="label_10">
+                   <property name="text">
+                    <string>Software Version</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="12" column="0">
+                  <widget class="QLabel" name="label_9">
+                   <property name="text">
+                    <string>Tags</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="12" column="1">
+                  <widget class="QLabel" name="label_17">
+                   <property name="text">
+                    <string>blender, character, model, georgiana, flightsuit</string>
+                   </property>
+                   <property name="wordWrap">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="13" column="0">
+                  <widget class="QLabel" name="label_20">
+                   <property name="text">
+                    <string>Completeness</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="13" column="1">
+                  <widget class="QLabel" name="label_21">
+                   <property name="text">
+                    <string>Model, Topology, Materials, Preview, Shape Keys, Rigging, Actions, Animation</string>
+                   </property>
+                   <property name="wordWrap">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <widget class="QLabel" name="label_22">
+                   <property name="text">
+                    <string>Caption</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QLabel" name="label_23">
+                   <property name="text">
+                    <string>Georgiana Lerner in the Pinafore Dress (for Part 1 of the Pilot episode, &quot;No Children in Space)</string>
+                   </property>
+                   <property name="wordWrap">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="DetailsTab">
+       <attribute name="title">
+        <string>Details</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QTableWidget" name="tableWidget">
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>600</number>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>Resource ID</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Access</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Contributed By</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Credit</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>License</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Original Filename</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Tags</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Source</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Named Person(s)</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Original Sitename</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Date</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Software Version</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Caption</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Value</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>246</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>Open</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>Admin</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>Bela Szabo (base model), Andrew Pray (spacesuit), Daniel Fu (design), Keneisha Perry (rig, shading), Terry Hancock (textures, shading)</string>
+           </property>
+          </item>
+          <item row="4" column="0">
+           <property name="text">
+            <string>CC By-SA 3.0</string>
+           </property>
+          </item>
+          <item row="5" column="0">
+           <property name="text">
+            <string>Georgiana_Flightsuit.blend</string>
+           </property>
+          </item>
+          <item row="6" column="0">
+           <property name="text">
+            <string>blender, character, model, georgiana, flightsuit</string>
+           </property>
+          </item>
+          <item row="7" column="0">
+           <property name="text">
+            <string>Project Team (Original)</string>
+           </property>
+          </item>
+          <item row="8" column="0">
+           <property name="text">
+            <string>Georgiana Lerner</string>
+           </property>
+          </item>
+          <item row="9" column="0">
+           <property name="text">
+            <string>Lunatics Project (Original)</string>
+           </property>
+          </item>
+          <item row="10" column="0">
+           <property name="text">
+            <string>25 September 2015</string>
+           </property>
+          </item>
+          <item row="11" column="0">
+           <property name="text">
+            <string>2.71</string>
+           </property>
+          </item>
+          <item row="12" column="0">
+           <property name="text">
+            <string>Georgiana Lerner in the Pinafore Dress (for Part 1 of the Pilot episode, &quot;No Children in Space)</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="NotesTab">
+       <attribute name="title">
+        <string>Notes</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QTextEdit" name="textEdit">
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Fully rigged character model.&lt;br /&gt;&lt;br /&gt;Bela Szabo's character model of Georgiana in her canonical flightsuit / jumpsuit / playsuit.&lt;br /&gt;&lt;br /&gt;Based on modelsheets created by Daniel Fu.&lt;br /&gt;&lt;br /&gt;Rigging by Keneisha Perry using Nathan Vegdahl's Rigify script.&lt;br /&gt;&lt;br /&gt;Shading, Textures by Keneisha Perry and Terry Hancock.&lt;br /&gt;&lt;br /&gt;Art direction by Terry Hancock&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="VersionsTab">
+       <attribute name="title">
+        <string>Versions</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QTableWidget" name="tableWidget_3">
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Version</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Date</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>By</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Comment</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Ticket Refs</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>30/07/2017</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>Katrina</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>Fixed colors</string>
+           </property>
+          </item>
+          <item row="0" column="4">
+           <property name="text">
+            <string>#101</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="TrackingTab">
+       <attribute name="title">
+        <string>Issue Tracking</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QTableWidget" name="tableWidget_2">
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Ticket</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Stauts</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Assignment</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Title</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>100</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>Open</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>Terry</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>Do some stuff</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>101</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>Closed</string>
+           </property>
+          </item>
+          <item row="1" column="2">
+           <property name="text">
+            <string>Terry</string>
+           </property>
+          </item>
+          <item row="1" column="3">
+           <property name="text">
+            <string>Do some other stuff</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="DiscussionTab">
+       <attribute name="title">
+        <string>Discussion</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="../../resources/mainwindow.qrc">:/chat_example.jpg</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+       <zorder>scrollArea</zorder>
+       <zorder>label_4</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>525</width>
+     <width>866</width>
      <height>23</height>
     </rect>
    </property>
@@ -27,17 +588,43 @@
     <property name="title">
      <string>File</string>
     </property>
+    <addaction name="actionOpen_Resource"/>
+    <addaction name="actionCreate_Resource"/>
+    <addaction name="actionCreate_Collection"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
      <string>Edit</string>
     </property>
+    <addaction name="actionPreferences"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen_Resource">
+   <property name="text">
+    <string>Open Resource</string>
+   </property>
+  </action>
+  <action name="actionCreate_Resource">
+   <property name="text">
+    <string>Create Resource</string>
+   </property>
+  </action>
+  <action name="actionCreate_Collection">
+   <property name="text">
+    <string>Create Collection</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Preferences</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../resources/mainwindow.qrc"/>
+ </resources>
  <connections/>
 </ui>
